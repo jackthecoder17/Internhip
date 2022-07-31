@@ -1,0 +1,102 @@
+@media screen and (max-width:769px) {
+    col-md-5 img {
+        margin-bottom: -300px;
+        width: 100%;
+    }
+    .section-1 .navbar-nav {
+        margin-left: 10px;
+    }
+    .section-1 .second {
+        position: relative;
+        padding: 16.2vmin 1vmin;
+        background-size: 100%;
+        background-repeat: no-repeat;
+        background-position: -3rem -3rem;
+        background-position: 50% 50%;
+        background-repeat: no-repeat;
+    }
+    .section-2 .col-md-5 img {
+        width: 100%;
+        margin-left: -40px;
+        margin-top: 20px;
+        margin-bottom: -60px;
+    }
+    .section-3 .col-md-5 img {
+        margin-bottom: -400px;
+    }
+    .Section-4 .col-md-5 img {
+        margin-left: 0px;
+        margin-bottom: -400px;
+    }
+    .Contact p {
+        margin-left: 20px;
+    }
+}
+
+@media screen and (max-width:426px) {
+    .nav-container .nav {
+        position: relative;
+        margin-left: 70px;
+        padding-bottom: 2px;
+    }
+    .section-1 .col-md-5 h1 {
+        font-size: 25px;
+    }
+    .section-1 .col-md-5 p {
+        font-size: 10px;
+    }
+    .section-1 .col-md-5 {
+        padding-bottom: 00px;
+    }
+    .section-1 .second {
+        padding-bottom: 200px;
+        background-position: -10px 0;
+    }
+    .section-2 h3,
+    .section-3 h3,
+    .Section-4 h3 {
+        font-size: 22px;
+        font-weight: 600;
+        font-family: 'Product Sans', sans-serif;
+        color: #4C38EE;
+    }
+    .section-2 .col-md-5 img {
+        width: 100%;
+        margin-left: -20px;
+        margin-top: 20px;
+        margin-bottom: -60px;
+    }
+    /* .section-2 p,
+    .section-3 p,
+    .Section-4 p {
+        font-size: 10px;
+    } */
+    .Section-4 {
+        margin-bottom: 50px;
+    }
+    .Section-5 h1 {
+        font-size: 20px;
+        margin-left: 30px;
+    }
+    .old .row {
+        display: flex;
+        flex-flow: column-reverse;
+    }
+    .old .row .col-md-7 img {
+        width: 80%;
+    }
+    .old-1 .col-md-5 img {
+        width: 80%;
+        margin-bottom: 40px;
+    }
+    .new-2 .row {
+        display: flex;
+        flex-flow: column-reverse;
+    }
+    .new-2 .col-md-7 img {
+        width: 100%;
+    }
+    .new {
+        padding-bottom: 300px;
+    }
+}
